@@ -106,5 +106,4 @@ jobs:
           tags: |
             ${{ env.REGISTRY }}/${{ inputs.image_prefix }}/${{ inputs.tag }}:latest
           labels: ${{ inputs.label }}
-          no-cache: true
           build-args: ${{ inputs.build-args }}
